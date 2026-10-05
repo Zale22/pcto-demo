@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    color: #222;
+    background: #f5f5f5;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 24px;
+    background: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #eee;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+button {
+    margin-top: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.errore {
+    color: #a00000;
+}
